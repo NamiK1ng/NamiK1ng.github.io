@@ -16,7 +16,7 @@ body {
 }
 
 .intro-section {
-    background-image: url('../IFNEWS/imagens-background/fundo01.png');
+    background-image: url('imagens/fundo01.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
