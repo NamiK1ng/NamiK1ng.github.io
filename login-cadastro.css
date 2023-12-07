@@ -4,7 +4,7 @@
     font-family: 'poppins' ,sans-serif;
 }
 body{
-    background-image: url("../IFNEWS/imagens-background/background.png");
+    background-image: url("imagens/background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
