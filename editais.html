@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="editais.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <title>Edital</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a class="logo" href=""><img src="../IFNEWS/imagens-background/logo1.png" height="20px">IF NEWS</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="equipe.html">Equipe IFNEWS</a></li>
+            <li><a href="cadastro2.html">Minha conta</a></li>
+            
+            <li><a href="editais.html">Editais</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+        <script src="navbar.js"></script>
+<main>
+    <div class="container">
+        <section class="article">
+            <h2 class="section-title">EDITAIS</h2>
+
+            <div class="tabs">
+                <div class="tab-button active" onclick="showTab('tab1')">EDITAL N° 194/2023 - Recurso contra resultado da homologação</div>
+                <div class="tab-button" onclick="showTab('tab2')">Edital N° 285/2023 - Seleção equipe multidisciplinar Mulheres Mil - Campus Santa Inês</div>
+            </div>
+            <div class="tab-content active" id="tab1">
+                <h3>EDITAL N° 194/2023 - Recurso contra resultado da homologação</h3>
+                <p>Descrição do N° 194/2023.</p>
+                <button class="button-box" onclick="toggleContent('content1')">Leia Mais</button>
+                <div id="content1" class="extra-content" style="display: none;">
+                    <p>
+                        "O Diretor Geral do Instituto Federal do Maranhão, Campus São João dos Patos, juntamente com a Coordenadoria da Pós-Graduação lato sensu em Educação a Distância e Tecnologias Aplicadas, anuncia o resultado do recurso contra a homologação das inscrições do Edital N° 169/2023 - Seletivo Simplificado de Acesso ao Curso de Pós-Graduação Lato Sensu em Educação à Distância e Tecnologias Aplicadas. Para mais detalhes, consulte o site oficial do IFMA."
+                        .</p>
+                    <a class="blue" href="https://portal.ifma.edu.br/concursos-e-seletivos/" target="_blank">Saiba mais no site oficial</a>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab2">
+                <h3>Edital N° 285/2023 - Seleção equipe multidisciplinar Mulheres Mil - Campus Santa Inês</h3>
+                <p>Descrição do edital  N° 285/2023.</p>
+                <button class="button-box" onclick="toggleContent('content2')">Leia Mais</button>
+                <div id="content2" class="extra-content" style="display: none;">
+                    <p>
+                        "Está aberto o processo de seleção para a Equipe Multidisciplinar do Programa Mulheres Mil/Bolsa-Formação no IFMA-Campus Santa Inês. Profissionais interessados podem se inscrever para esta vaga remanescente. Conheça as diretrizes e normativas que regem o processo neste edital. Saiba mais no site oficial do IFMA.".</p>
+                    <a class="blue" href="https://portal.ifma.edu.br/concursos-e-seletivos/" target="_blank">Saiba mais no site oficial</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+
+    <script>
+        function showTab(tabId) {
+            var tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(function(tab) {
+                tab.classList.remove('active');
+            });
+            var activeTab = document.getElementById(tabId);
+            activeTab.classList.add('active');
+        }
+
+        function toggleContent(contentId) {
+            var content = document.getElementById(contentId);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
+</main>
+    
+
+    <script>
+        function showTab(tabId) {
+            var tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(function(tab) {
+                tab.classList.remove('active');
+            });
+            var activeTab = document.getElementById(tabId);
+            activeTab.classList.add('active');
+        }
+
+        function toggleContent(contentId) {
+            var content = document.getElementById(contentId);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-cadastro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <script src="navbar.js"></script>
+    <title>IF-NEWS | Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href=""><img src="../IFNEWS/imagens-background/logo1.png" height="20px">IF NEWS</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="equipe.html">Equipe IFNEWS</a></li>
+            <li><a href="cadastro2.html">Minha conta</a></li>
+            
+            <li><a href="editais.html">Editais</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script src="navbar.js"></script>
+    
+
+   <form action="login-usuario.php" method="post">
+
+   <div class="box">
+
+    <div class="container">
+
+        <div class="efeitovidro">
+
+        <div class="top">
+
+            <span><a href="cadastro2.html">Não tem uma conta?</a></span>
+            <h1>Login</h1>
+            
+        </div>
+        
+        <div class="input-field">
+            <input type="email" class="input" placeholder="Digite seu email" name="email" id="email">
+            <i class='bx bx-user' ></i>
+        </div>
+        <div class="input-field">
+            <input type="Password" class="input" placeholder="Digite sua senha" name="senha" id="senha">
+            <i class='bx bx-lock-alt'></i>
+        </div>
+        <div class="input-field">
+            <input type="submit" class="submit" value="Login" name="login" id="login">
+        </div>
+        <div class="two-col">
+            <div class="one">
+               <input type="checkbox" name="" id="check">
+               <label for="check"> Lembre-se de mim</label>
+            </div>
+            <div class="two">
+                <label><a href="#">Esqueceu sua senha?</a></label>
+            </div>
+        </div>
+     </div>
+    </div>
+</div>
+</form> 
+
+</body>
+</html>
